@@ -1,0 +1,19 @@
+<Window x:Class="RectangleWindows.FootprintWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Footprint" 
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        Background="Transparent"
+        ShowInTaskbar="False"
+        Topmost="True"
+        ResizeMode="NoResize"
+        ShowActivated="False">
+    <Border x:Name="FootprintBorder" 
+            BorderBrush="#FF0066CC" 
+            BorderThickness="2"
+            Background="#4D0066CC"
+            CornerRadius="0">
+    </Border>
+</Window>
+
